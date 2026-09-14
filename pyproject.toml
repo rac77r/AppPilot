@@ -1,0 +1,21 @@
+[project]
+name = "AppPilot"
+version = "0.1.0"
+description = "Ubuntu Application Manager"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "PyGObject>=3.8.0",
+  "setuptools>=68"
+]
+
+[project.scripts]
+appilot = "ubuntu_app_manager.app.main:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

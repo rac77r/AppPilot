@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Local settings and runtime data
+*.log
+*.sqlite3
+*.db
+.env
+.env.*
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Generated GTK / app data
+**/__pycache__/
+coverage.xml
+htmlcov/
+
+# Test artifacts
+.pytest_cache/
+coverage/
